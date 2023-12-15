@@ -43,6 +43,7 @@
 
   <!-- Dynamic Matrix -->
   <Type Name="Eigen::Matrix&lt;*,-1,-1,*,*,*&gt;">
+    <DisplayString>h={m_storage.m_rows},w={m_storage.m_cols}</DisplayString>
     <Expand>
       <Synthetic Name="[type]" Condition='strcmp("int", "$T1") == 0'>
         <DisplayString>INT32</DisplayString>
